@@ -24,5 +24,10 @@ public class Commercial {
     private String email;
 
     private Set<Produit> produits;
+
+    @Override
+    public String toString() {
+        return matricule;
+    }
 }
 
